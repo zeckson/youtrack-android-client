@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent">
+
+
+    <LinearLayout a:id="@+id/issue_description"
+              a:layout_height="fill_parent"
+              a:layout_width="fill_parent"
+              a:orientation="vertical">
+        <TextView
+              a:id="@+id/summary"
+              a:layout_height="wrap_content"
+              a:layout_width="fill_parent"
+              a:layout_margin="5sp"
+              a:paddingBottom="5sp"
+              a:textAppearance="@android:style/TextAppearance.Large"/>
+        <TextView
+              a:id="@+id/description"
+              a:layout_height="wrap_content"
+              a:layout_width="fill_parent"
+              a:layout_margin="5sp"
+              a:text="&lt;No description&gt;"
+              a:textAppearance="@android:style/TextAppearance.Medium"/>
+    </LinearLayout>
+
+    <ListView a:id="@+id/issue_properties"
+              a:layout_height="fill_parent"
+              a:layout_width="fill_parent"
+              a:text="properties"/>
+
+    <TextView a:id="@+id/issue_comments"
+              a:layout_height="fill_parent"
+              a:layout_width="fill_parent"
+              a:text="comments"/>
+
+</FrameLayout>

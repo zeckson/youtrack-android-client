@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">YouTRACK</string>
+    <!--Menu Options-->
+    <string name="options">Options</string>
+    <string name="quit">Quit</string>
+    <string name="reports">Reports</string>
+    <string name="update">Update</string>
+    <string name="query">Query</string>
+    <!--Preferences-->
+    <string name="preferences_label">YouTRACK Preferences</string>    
+        <!--Server Categoty-->
+    <string name="server_preference_category">Host settings</string>
+    <string name="host_url_preference_title">Host</string>
+    <string name="host_url_preference_summary">Host name of your YouTRACK installation</string>
+        <!--User Categoty-->
+    <string name="user_preference_category">User settings</string>
+    <string name="user_name_preference">Login</string>
+    <string name="user_password_preference">Password</string>
+    <string name="user_filter_preference">Search filter</string>
+
+    <!-- Search -->
+    <string name="search_label">YouTrack</string>
+    <string name="search_hint">all issues</string>
+</resources>

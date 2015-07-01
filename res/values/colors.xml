@@ -1,0 +1,16 @@
+<resources>
+    <color name="priority_minor">#64992C</color>
+    <color name="priority_background_minor">#EBF4DD</color>
+
+    <color name="priority_normal">#64992C</color>
+    <color name="priority_background_normal">#EBF4DD</color>
+
+    <color name="priority_major">#C00000</color>
+    <color name="priority_background_major">#EBF4DD</color>
+
+    <color name="priority_critical">#C00000</color>
+    <color name="priority_background_critical">#FFE3E3</color>
+
+    <color name="priority_showStopper">#C00000</color>
+    <color name="priority_background_showStopper">#FFE3E3</color>
+</resources>
